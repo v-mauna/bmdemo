@@ -127,7 +127,7 @@ header {
   text-transform: uppercase;
   position: relative;
   top: 0;
-  font-size: 40px;
+  font-size: 30px;
   animation: slideup 2s;
 }
 #content p {
@@ -143,6 +143,7 @@ header {
   font-size: 12px;
   width: 200px;
   font-weight: 800;
+  letter-spacing: 3px;
   margin-top: 2em;
   text-align: center;
   text-decoration: none;
