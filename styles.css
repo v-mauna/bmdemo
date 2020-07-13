@@ -399,6 +399,8 @@ header {
     margin-right: 1.5em;
     align-content: left;
     font-size: 10px;
+    padding: 1em;
+    height: auto;
   }
   body{
     display: block;
