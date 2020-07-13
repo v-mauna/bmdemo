@@ -390,20 +390,27 @@ header {
 
 
 @media (max-width: 700px) {
-  nav,
-  ul,
-  li {
+  .navbar
+   {
+     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     margin-right: 1.5em;
     align-content: left;
     font-size: 10px;
   }
+  body{
+    display: block;
+  }
+  
   .navbar a{
     font-size: 10px;
 
   }
   #content {
+    display: flex;
+    flex-direction: column;
     animation: none;
   }
   #content-text h2 {
