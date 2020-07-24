@@ -11,8 +11,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
+    <nav class="navbar" >
+      <div id='topNav'>
+      <ul >
         <li>
           <p>
             <a href="/" title="Home">
@@ -42,6 +43,23 @@
           </p>
         </li>
       </ul>
+    </div>
+      <div class='dropNav'>
+        <p>Burning Man</p>
+        <div class='dropdown-content'>
+          <a href='/' class='min-screen'>
+            Home
+          </a>
+          <a onClick="displayVideo()" class='min-screen' title="Watch">
+            Watch
+          </a>
+            <a href="/#credits" class='min-screen' title="Credits">
+              Credits
+            </a>
+
+            <a href="/#stills" class='min-screen' title="Behind The Scenes">
+              Behind The Scenes
+            </a>
     </nav>
     <div class="container">
       <header>
