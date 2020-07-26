@@ -248,15 +248,17 @@ body {
   height: auto;
   justify-content: center;
 }
-#laurels img {
+#laurels > img {
   position: relative;
   width: 180px;
   height: 100px;
   padding-left: 1em;
   padding-right: 1.5em;
 }
-
-#laurels img:last-child {
+#laurels img:nth-child(6) {
+  margin-bottom: 1em;
+}
+#laurels img:nth-child(12) {
   margin-bottom: 50px;
 }
 #nycdff {
@@ -264,13 +266,13 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  margin: auto;
+  margin: 1em;
   height: 200px;
   padding: 0;
 }
 
 
-#nycdff img {
+#nycdff>img {
   width: 300px;
   height: 190px;
 }
@@ -481,6 +483,7 @@ body {
   .navbar a {
     font-size: 10px;
     padding-left: 2em;
+    color: white;
   }
   #topNav {
     display: none;
