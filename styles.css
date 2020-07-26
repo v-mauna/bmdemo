@@ -511,7 +511,7 @@ body {
 
   #img-container > img {
     width: 400px;
-    height: auto;
+    height: 300px;
   }
   #img-overlay-text{
     font-size: 12px;
