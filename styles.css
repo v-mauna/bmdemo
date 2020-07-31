@@ -84,7 +84,6 @@ body {
   display: none;
   margin-right: 2vw;
   font-family: 'work sans', sans-serif;
-  font-style: normal;
 }
 
 #dropbtn {
@@ -94,7 +93,8 @@ body {
 }
 .dropNav p {
   font-size: 1.2em;
-  font-family: 'Archivo Black', sans-serif;
+  font-weight: 800;
+  font-family: 'Arial', sans-serif;
 }
 .dropdown-content {
   display: none;
@@ -247,13 +247,13 @@ body {
   margin: 0;
   height: auto;
   justify-content: center;
+  align-content: center;
 }
 #laurels > img {
   position: relative;
   width: 180px;
-  height: 100px;
+  height: 120px;
   padding-left: 1em;
-  padding-right: 1.5em;
 }
 #laurels img:nth-child(6) {
   margin-bottom: 1em;
@@ -302,9 +302,7 @@ body {
   font-weight: 800;
   padding-top: 50px;
 }
-#crew-container p {
-  color: black;
-}
+
 #crew {
   width: 100vw;
   display: -webkit-box;
@@ -329,7 +327,6 @@ body {
   padding-left: 1em;
   letter-spacing: 3px;
   justify-content: center;
-  align-content: center;
   text-transform: lowercase;
   color: black;
 }
@@ -366,7 +363,7 @@ body {
 
 #stills {
   background: var(--mainBg);
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
 }
 
@@ -401,7 +398,7 @@ body {
 }
 #img-container > img {
   width: 75%;
-  height: auto;
+
 }
 #project-logo {
   display: flex;
@@ -464,7 +461,7 @@ body {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   body {
     display: block;
   }
@@ -491,8 +488,12 @@ body {
   .dropNav {
     display: block;
   }
+  .dropNav p {
+    color: white;
+  }
   #content h2{
     font-size: 1.5em;
+    letter-spacing: normal;
   }
   #content p{
     font-size: 14px;
@@ -501,19 +502,116 @@ body {
     font-size: 12px;
     letter-spacing: .01em;
   }
+
+  #laurels {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+  }
   #laurels img{
-    width: 30%;
+    width:35%;
+    height: 35%;
+    margin-bottom: 2%;
+  }
+  #laurels img:nth-child(12) {
+    margin-bottom: 2%;
+}
+
+  #nycdff {
+    height: 40%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
   }
   #nycdff img{
-    width: 50%;
+    width: 40%;
+    height: 40%;
+
   }
 
-
   #img-container > img {
-    width: 400px;
-    height: 300px;
+    width: 75%;
+    height: 75%;
   }
   #img-overlay-text{
     font-size: 12px;
   }
 }
+@media (max-width: 900px) {
+  body {
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: left;
+    margin-right: 1.5em;
+    align-content: left;
+    font-size: 12px;
+    padding: 1em;
+    height: auto;
+  }
+  .navbar a {
+    font-size: 12px;
+    padding-left: 2em;
+    color: white;
+  }
+  #topNav {
+    display: none;
+  }
+  .dropNav {
+    display: block;
+  }
+  .dropNav p {
+    color: white;
+  }
+  #content h2{
+    font-size: 1.5em;
+    letter-spacing: normal;
+  }
+  #content p{
+    font-size: 14px;
+  }
+  #crew .headings, #crew .names{
+    font-size: 12px;
+    letter-spacing: .01em;
+  }
+
+  #laurels {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+  }
+  #laurels img{
+    width:40%;
+    height: 40%;
+  }
+  #laurels img:nth-child(12) {
+    margin-bottom: 2%;
+}
+
+  #nycdff {
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  #nycdff img{
+    width: 50%;
+    height: 50%;
+  }
+
+
+  #img-container > img {
+    width: 85%;
+    height: 85%;
+  }
+  #img-overlay-text{
+    font-size: 10px;
+  }
+}
+
