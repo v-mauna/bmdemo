@@ -319,12 +319,11 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  width: 50%;
+  width: 300px;
   flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   text-align: right;
-  padding-left: 1em;
   letter-spacing: 3px;
   justify-content: center;
   text-transform: lowercase;
@@ -499,9 +498,10 @@ body {
     font-size: 14px;
   }
   #crew .headings, #crew .names{
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: .01em;
   }
+
 
   #laurels {
     display: flex;
@@ -576,7 +576,7 @@ body {
     font-size: 14px;
   }
   #crew .headings, #crew .names{
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: .01em;
   }
 
