@@ -575,16 +575,19 @@ body {
   #content p{
     font-size: 14px;
   }
+  .title > h2{
+    font-size: 20px;
+  }
   #crew .headings, #crew .names{
-    font-size: 10px;
-    letter-spacing: .01em;
+    font-size: 9px;
+    letter-spacing: 0em;
   }
 
   #laurels {
     display: flex;
     flex-direction:row;
     align-items:center;
-    justify-content: center;
+    justify-content: space-around;
   }
   #laurels img{
     width:40%;
