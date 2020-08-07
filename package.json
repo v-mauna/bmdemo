@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "netlify-plugin-image-optim": "^0.3.0"
   },
   "devDependencies": {
     "next": "^9.4.4"

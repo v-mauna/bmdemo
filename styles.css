@@ -396,7 +396,8 @@ body {
   margin: auto;
 }
 #img-container > img {
-  width: 75%;
+  width: 75vw;
+  height: 75vh;
 
 }
 #project-logo {
@@ -530,10 +531,6 @@ body {
 
   }
 
-  #img-container > img {
-    width: 75%;
-    height: 75%;
-  }
   #img-overlay-text{
     font-size: 12px;
   }
@@ -606,12 +603,6 @@ body {
   #nycdff img{
     width: 50%;
     height: 50%;
-  }
-
-
-  #img-container > img {
-    width: 85%;
-    height: 85%;
   }
   #img-overlay-text{
     font-size: 10px;
