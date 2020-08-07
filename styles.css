@@ -461,7 +461,7 @@ body {
 
 
 
-@media (max-width: 750px) {
+@media (max-device-width: 750px) {
   body {
     display: block;
   }
@@ -530,12 +530,17 @@ body {
     height: 40%;
 
   }
+  #img-container > img {
+    max-width: 100%;
+    height: auto;
+  
+  }
 
   #img-overlay-text{
     font-size: 12px;
   }
 }
-@media (max-width: 900px) {
+@media (max-device-width: 900px) {
   body {
     display: block;
   }
@@ -603,6 +608,11 @@ body {
   #nycdff img{
     width: 50%;
     height: 50%;
+  }
+  #img-container > img {
+    max-width: 100%;
+    height: auto;
+
   }
   #img-overlay-text{
     font-size: 10px;
