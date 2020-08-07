@@ -396,8 +396,8 @@ body {
   margin: auto;
 }
 #img-container > img {
-  width: 75vw;
-  height: 75vh;
+  max-width: 100%;
+  height: auto;
 
 }
 #project-logo {
