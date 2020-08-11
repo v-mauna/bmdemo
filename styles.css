@@ -379,31 +379,30 @@ body {
   box-sizing: border-box;
 }
 
-.bts-content {
+#bts-content {
   width: 100vw;
   height: auto;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 #img-container {
   overflow: hidden;
   position: relative;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 1.5em;
 }
 #img-container > img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  padding: 1em;
   height: 100%;
+  
 
 }
 #project-logo {
